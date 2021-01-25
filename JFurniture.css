@@ -2,9 +2,58 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+body{
+    height: 200vh;
+}
+/*--------- Header Section ------------ */
 .header{
+    position: sticky;
+    top: 0;
     height: 12vh;
     background-color: wheat;
 }
+.nav{
+    background-color: transparent;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    left: 2em;
+    font-size: 1.5em;
+}
+.links{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1em;
+    font-size: 1.2em;
+}
+.links li{
+    display: inline-block;
+    margin-right: 2em;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul{
+    list-style: none;
+    
+}
+.hero-Header{
+    height: 88vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=867&q=80');
+}
+/*--------- Header Section ------------ */
